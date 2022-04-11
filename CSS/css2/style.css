@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+     border: 2px solid green;
+    margin: 60px auto;
+}
+.static{
+    position: static;
+    background-color: brown;
+    /* top: 50px;
+    left: 30%; */
+}
+/* relative no one occupied that place */
+.relative{
+    position: relative;
+    background-color: pink;
+    top: 50px;
+    left: 40%;
+    width: 50%;
+    height: 50%;
+}
+.absolute{
+    position: absolute;
+}
+.fixed{
+    position: fixed;
+    background-color: black;
+    color: white;
+    top:0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+}
